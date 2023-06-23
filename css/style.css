@@ -151,10 +151,6 @@ img{
     background-image: url(../assets/images/v2/1.jpg); 
 }
 
-.flex-item a#two{
-    background-image: url(../assets/images/2.2.jpg); 
-}
-
 .flex-item a#vthree{
     background-image: url(../assets/images/v3/1.jpg); 
 }
@@ -181,6 +177,10 @@ img{
 
 .flex-item a#pfive{
     background-image: url(../assets/images/p5.jpg); 
+}
+
+.flex-item a#bone{
+    background-image: url(../assets/images/b1.jpg); 
 }
 
 .flex-item a:hover{
