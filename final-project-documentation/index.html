@@ -52,53 +52,15 @@
             </section>
             <section>
                 <h3>Technical Implementation</h3>
-
-                <!-- example of styling for three images, you can write your own styling -->
-                <!-- <div class="flex-container flex-basis-third">
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-square.jpeg"/>
-                    </div>
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-square.jpeg"/>
-                    </div>
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-square.jpeg"/>
-                    </div>
-                </div> -->
-                
                 <p>I looked for the key points for the hands and feet by learning ml5's PoseNet, but I found that I could only identify the wrists and ankles. So I created the starting point of the path by identifying the four key points for the left and right wrists and ankles and then formed coloured lines by moving the wrists and ankles. This fulfilled the condition of forming a brush with the body. I did not have a deep study of the definition of colour and just picked four random colours to represent different parts of the body. Due to the mirroring of the camera and computer screen, red represents the right wrist in the camera, green represents the left wrist in the camera, blue represents the right ankle in the camera and yellow represents the left ankle in the camera. Four path lines are formed in the computer screen, and participants can dance their hands and move their feet to form a path map. You can also click on the save button to save a photo of yourself and your body painting together. </p>
-            
-                <!-- example of styling for three images, you can write your own styling -->
-                <!-- <div class="flex-container flex-basis-half">
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-rect.jpeg"/>
-                    </div>
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-rect.jpeg"/>
-                    </div>
-                </div> -->
-
-                <!-- default flex item is for 4 & follows media query styling for home page -->
-                <!-- <div class="flex-container">
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-rect.jpeg"/>
-                    </div>
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-rect.jpeg"/>
-                    </div>
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-rect.jpeg"/>
-                    </div>
-                    <div class="flex-item">
-                        <img src="../assets/images/repeating-diagonal-lines-rect.jpeg"/>
-                    </div>
-                </div> -->
-         
             </section>
             <section>
                 <h3>Code Online Link</h3>
-                <p>PoseNet is very hard. I was able to iterate through a code about face detection drawing circles before I ended up with the current code. At first, I was anxious about not finding the key points for the hands and feet. I solved the problem when I found PoseNet and used the console to find the key points for the bones. Then, I converted drawing circles to drawing lines. Finally, I started to try to get four positions to draw lines at the same time. I found that this was not an easy thing to do and I tried step by step because I simply could not find the right code to learn. I then came up with the idea of creating a class and then the four positions would apply the class at the same time and eventually the code was completed. With a problem that I haven't solved perfectly. I think different participants would have to use a new canvas each time. I would like to have a button to clear the canvas directly, but I set this button and the lines on the canvas are not cleared, which causes the program to be reopened once for each new participant involved, which is very tedious. I think I need to think about how to fix this afterwards.</p>
-                <a href="https://ttmmd55.github.io/Body-paintbrush/" ></a>
+                <div>
+                    <a href="https://ttmmd55.github.io/Body-paintbrush/" ></a>
+                    <h4>Project Link</h4>
+                </div>
+                
             </section>
         </main>
 
